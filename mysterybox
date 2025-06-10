@@ -1,0 +1,10 @@
+echo "# merput62" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/erwinkerjaaa/merput62.git
+git push -u origin main
+git add path/to/gifbang.gif
+git commit -m "Add asset image"
+git push origin main
